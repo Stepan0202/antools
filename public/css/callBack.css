@@ -1,0 +1,49 @@
+.callbackForm__container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 8.5152838428% 14.8471615721% 7.423580786%;
+  background: #87B0EE;
+  box-shadow: 0px 2px 6px rgba(38, 54, 77, 0.275514);
+}
+
+.callbackForm__header {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.callbackForm__body {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.callbackForm__body input, .callbackForm__body textarea {
+  background: #fff;
+  border: #fff;
+  color: #E88952;
+  flex: 1 1 42px;
+  padding-left: 4.9689440994%;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #7B7B7B;
+}
+.callbackForm__body #docs {
+  flex: 2 1 120px;
+  padding-top: 3.7267080745%;
+}
+.callbackForm__body input[type=submit] {
+  background: linear-gradient(90deg, #F6BD60 0%, #E88952 100%);
+  box-shadow: 0px 8px 18px rgba(167, 108, 67, 0.43892);
+  border-radius: 3px;
+  /*font*/
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}

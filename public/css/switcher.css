@@ -1,0 +1,51 @@
+.permissions {
+  background: #F6F6F6;
+  overflow: hidden;
+}
+
+.permissions__container {
+  padding-top: 50px;
+}
+
+.permission__mainSwitchBlock {
+  display: flex;
+  max-width: 84.3587842847%;
+  margin: 0 auto;
+}
+
+.permissions__switch-block {
+  display: flex;
+  max-width: 84.3587842847%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.permissions__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0;
+  padding-bottom: 74px;
+  position: relative;
+  left: 0px;
+  transition: all ease 1s;
+}
+
+.permissions__left, .permissions__right {
+  align-self: center;
+  cursor: pointer;
+  display: block;
+}
+
+.permissions__left {
+  margin-right: 48px;
+}
+
+.permissions__image {
+  min-width: 233px;
+  margin-right: 38px;
+}
+
+.permissions__right {
+  transform: rotate(180deg);
+  margin-left: 48px;
+}
