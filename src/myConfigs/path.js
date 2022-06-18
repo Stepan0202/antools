@@ -34,15 +34,15 @@ module.exports = {
     },
 
     images: {
-        src: pathSrc + "img/**/*.{png, jpg, jpeg, svg, gif}",
-        watch: pathSrc + "img/**/*.{png, jpg, jpeg, svg, gif}",
-        dest: pathDest
+        src: pathSrc + "img/**/*.{png,jpg,jpeg,svg,gif}",
+        watch: pathSrc + "img/**/*.{png,jpg,jpeg,svg,gif}",
+        dest: pathDest + "/img"
     },
 
     js: {
         src: pathSrc + "js/**/*.js",
         watch: pathSrc + "js/**/*.js",
-        dest: pathDest
+        dest: pathDest + "/js"
     },
 
     exceptions: {
